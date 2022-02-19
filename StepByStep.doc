@@ -1,0 +1,36 @@
+
+//token
+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
+*Github Setting -> Developer Setting -> Personal Acces Token -> Generate Token -> Choose Repository -> Generate -> Copy
+
+//subsitusi
+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:x-oauth-basic@
+
+//rancangan
+https://${token}:x-oauth-basic@github.com/KeiRey/Cara-Push-menggunakan-Github-Acces-Token.git
+
+//examp (Final examp)
+https://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:x-oauth-basic@ithub.com/KeiRey/Peduli_diri.git
+
+
+//Step
+
+Don't use numbers(1, 2 , 3, ...) or stars(*) in front of the clue, it's just for numbering
+
+1. git clone {Link Repository} 
+*git clone git clone https://github.com/KeiRey/Peduli_diri.git
+*copy or add file for push in repository
+
+2. git status (to check the file that was added)
+
+3. git add (add a new file to the selected repository)
+*git add file_name (for multiple files)
+*git add . (all files at once)
+
+4. git commit -m"Your message" (to save changes made)
+
+5. git push (to submit file changes after being committed to a remote repository.)
+*git push {your link with acces token}
+*git push https://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:x-oauth-basic@ithub.com/KeiRey/Peduli_diri.git
+
+6. Refresh your repository and Congrats
